@@ -17,15 +17,18 @@ html {
     line-height: 1.5;
     background-color: slategrey;
     color: white; 
+    text-align: center;
   }
   
   h1{
     font-family: verdana, arial, sans-serif; 
+    text-align: center;
   }
   
   button{
     padding: 10px;
     border-radius: 10px;
+    background: AliceBlue;
   }
   
   #gameButtonArea > button {
@@ -35,15 +38,15 @@ html {
   }
   
   #button1 {
-      background: lightgreen;
+      background: lavender;
   }
   
   #button1:active, #button1.lit {
-      background:green;
+      background:BlueViolet;
   }
   
   #button2 {
-      background: lightblue;
+      background: lightcyan;
   }
   
   #button2:active, #button2.lit {
@@ -51,7 +54,7 @@ html {
   }
   
   #button3 {
-      background: pink;
+      background: lightpink;
   }
   
   #button3:active, #button3.lit {
@@ -65,6 +68,23 @@ html {
   #button4:active, #button4.lit {
       background:yellow;
   }
+  
+  #button5 {
+      background: peachpuff;
+  }
+  
+  #button5:active, #button5.lit {
+      background:orange;
+  }
+  
+  #button6 {
+      background: palegreen;
+  }
+  
+  #button6:active, #button6.lit {
+      background:green;
+  }
+  
   
   .hidden {
     display: none;
