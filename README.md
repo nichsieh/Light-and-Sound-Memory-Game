@@ -1,6 +1,3 @@
-# Light-and-Sound-Memory-Game
-Game implementation of the Light and Sound Memory Game. 4 buttons that light up and make a sound 1 at a time. User must repeat the pattern to win.
-
 # Pre-work - *Memory Game*
 
 **Memory Game** is a Light & Sound Memory game to apply for CodePath's SITE Program. 
@@ -16,20 +13,20 @@ Link to project: https://glitch.com/edit/#!/light-and-sound-memory-game-by-nicol
 The following **required** functionality is complete:
 
 * [x] Game interface has a heading (h1 tag), a line of body text (p tag), and four buttons that match the demo app
-* [ ] "Start" button toggles between "Start" and "Stop" when clicked. 
-* [ ] Game buttons each light up and play a sound when clicked. 
-* [ ] Computer plays back sequence of clues including sound and visual cue for each button
-* [ ] Play progresses to the next turn (the user gets the next step in the pattern) after a correct guess. 
-* [ ] User wins the game after guessing a complete pattern
-* [ ] User loses the game after an incorrect guess
+* [x] "Start" button toggles between "Start" and "Stop" when clicked. 
+* [x] Game buttons each light up and play a sound when clicked. 
+* [x] Computer plays back sequence of clues including sound and visual cue for each button
+* [x] Play progresses to the next turn (the user gets the next step in the pattern) after a correct guess. 
+* [x] User wins the game after guessing a complete pattern
+* [x] User loses the game after an incorrect guess
 
 The following **optional** features are implemented:
 
-* [ ] Any HTML page elements (including game buttons) has been styled differently than in the tutorial
-* [ ] Buttons use a pitch (frequency) other than the ones in the tutorial
-* [ ] More than 4 functional game buttons
-* [ ] Playback speeds up on each turn
-* [ ] Computer picks a different pattern each time the game is played
+* [x] Any HTML page elements (including game buttons) has been styled differently than in the tutorial
+* [x] Buttons use a pitch (frequency) other than the ones in the tutorial
+* [x] More than 4 functional game buttons
+* [x] Playback speeds up on each turn
+* [x] Computer picks a different pattern each time the game is played
 * [ ] Player only loses after 3 mistakes (instead of on the first mistake)
 * [ ] Game button appearance change goes beyond color (e.g. add an image)
 * [ ] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
@@ -40,25 +37,25 @@ The following **additional** features are implemented:
 - [ ] List anything else that you can get done to improve the app!
 
 ## Video Walkthrough (GIF)
-
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-![](gif1-link-here)
-![](gif2-link-here)
-![](gif3-link-here)
-![](gif4-link-here)
+![](https://i.imgur.com/XT2Vy8X.gif)
+![](https://i.imgur.com/16DAQb3.gif)
+![](https://i.imgur.com/zm43mG4.gif)
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
-[YOUR ANSWER HERE]
+Used https://www.w3schools.com/js/js_arrays.asp to learn how to manipulate arrays in JavaScript
+https://www.w3schools.com/cssref/css_colors.asp to learn more about colors in CSS
+https://www.w3schools.com/js/js_random.asp to learn about the Math library and how to create random numbers in Javascript
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
-[YOUR ANSWER HERE]
+Learning how Javascript works was one of the challenges I faced. Since I do not own any Javascript books to reference, I searched for quick information. For example, how to create arrays or how to create a random value. However since it is very similar to Java, many of the syntax carries over. 
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+After completing this assignment, I want to know more about how web developers create moving images or graphics in their websites. Manipulating time and frequency allowed for the pitch of the tone to change. So, I'm interested to see how self moving graphics would work. I would love to learn more about the strategies to keep the code organized. As a website or project grows, the amount of code that is needed increases. This process can get messy very quickly. It would be beneficial for web development and other types of coding practices to learn how to make code organized and easily distinguishable.
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+If I had more hours to work on this project. I would love to add a victory music or image at the end of the game. While my modifications allowed for the game to be enjoyable when playing multiple times, I think that adding more surprises would make it even more entertaining. In the loseGame() and winGame() function in scripts.js, I would add more elements to make this happen. Adding to the alert, the user woud be greeted to an image and sound. I would also love to make a 3 strike counter. So if the user clicks on the wrong button incorrectly 3 times, they lose the game. I would also love to learn how to implement a timer on this game. 
 
 
 
@@ -69,7 +66,7 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 
 ## License
 
-    Copyright [YOUR NAME]
+    Copyright Nicole Hsieh
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.

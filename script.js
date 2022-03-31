@@ -12,9 +12,9 @@ var guessCounter = 0;
 
 function patternCreator(){
   const pattern = [];
-  length = Math.floor(Math.random() * 10);
+  length = Math.floor((Math.random() * 10)) + 1;
   for (let i = 0; i < length; i++){
-    pattern[i] = Math.floor(Math.random() * 7);
+    pattern[i] = Math.floor(Math.random() * 6) + 1;
   }
   return pattern
 }
